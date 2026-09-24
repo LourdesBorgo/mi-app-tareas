@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+#form-tarea {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#input-tarea {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+#input-tarea:focus {
+  border-color: #667eea;
+}
+
+#form-tarea button {
+  padding: 12px 20px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#form-tarea button:hover {
+  background: #5568d3;
+}
+
+#lista-tareas {
+  list-style: none;
+}
+
+#lista-tareas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+#lista-tareas li:hover {
+  background: #efefef;
+}
+
+#lista-tareas li.completada span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+#lista-tareas li span {
+  flex: 1;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-eliminar {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.btn-eliminar:hover {
+  background: #c0392b;
+}
+
+#contador {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 15px;
+}

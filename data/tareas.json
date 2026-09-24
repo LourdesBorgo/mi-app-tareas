@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "texto": "Aprender Node.js",
+    "completada": false
+  },
+  {
+    "id": 2,
+    "texto": "Practicar JavaScript",
+    "completada": true
+  },
+  {
+    "id": 1790274861624,
+    "texto": "Ir al abasto",
+    "completada": false
+  },
+  {
+    "id": 1790274882432,
+    "texto": "Holaaa",
+    "completada": false
+  },
+  {
+    "id": 1790274900363,
+    "texto": "Salgo a las 5pm",
+    "completada": false
+  }
+]
